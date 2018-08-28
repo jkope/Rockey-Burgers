@@ -13,13 +13,15 @@ a {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /* background-image: url("../images/gingham.jpg"); */
+    text-shadow: 2px 2px #dadfea;
     background-color: darkblue;
     display: flex;
-    justify-items;
-    width: 100vw;
-    height: 100vh;
+    flex-direction: column;
+    justify-items:center;
+    width: 100%;
+    height: auto;
 }
+
  .frame{
      background-image: url("../images/gingham.jpg");
      margin: 2%
@@ -35,8 +37,6 @@ header {
     width: 60%;
     background-color: #dadfea;
 }
-
-
 
 .column {
     flex-direction: column;
@@ -55,6 +55,7 @@ nav {
 .textcenter {
     text-align: center;
 }
+
 ul{
     list-style: none;
 }
@@ -63,6 +64,7 @@ li {
     flex: 1;
     font-weight: bold;
     font-variant: small-caps;
+    font-size: 1em;
 }
 
 .italic {
@@ -74,3 +76,7 @@ img {
     border: 10px gray solid;
     margin: auto;
 } 
+
+.bold {
+    font-weight:bolder;
+}
