@@ -13,6 +13,7 @@ a {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
     text-shadow: 2px 2px #dadfea;
     background-color: darkblue;
     display: flex;
@@ -40,10 +41,11 @@ p{
     color: red;
 }
 .bglight{
-     background-color: rgba(225,225,225,.75);
+     background-color: rgba(32, 32, 32, 0.9);
+     color: white;
 }
 .bgdark{
-     background-color: rgba(50, 50, 50, 0.75);
+     background-color: rgba(250, 250, 250, 0.75);
 }
 
 .pad {
@@ -71,6 +73,7 @@ nav {
 
 .textcenter {
     text-align: center;
+    text-shadow: none;
 }
 
 ul{
