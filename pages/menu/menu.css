@@ -34,6 +34,14 @@ header {
     background-image: linear-gradient(to top,rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
+div div {
+    padding: 2%;
+}
+
+h3 {
+    padding: 2%;
+}
+
 .logo {
     width: 60%;
     background-color: #dadfea;
@@ -46,14 +54,7 @@ header {
 nav {
     padding: 2%;
 }
-.bgdark{
-     background-color: rgba(32, 32, 32, 0.95);
-}
- .txtwht{    color: white;
-}
-.txtshd{
-    text-shadow: none;
-}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -75,10 +76,6 @@ nav {
     justify-content: center;
 }
 
-.textcenter {
-    text-align: center;
-}
-
 ul{
     list-style: none;
 }
@@ -90,16 +87,19 @@ li {
     font-size: 1em;
 }
 
-.italic {
-    font-style: italic;
-}
-
 img {
     width: 70%;
     border: 10px gray solid;
     margin: auto;
 } 
 
-.bold {
-    font-weight:bolder;
+.menu {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    background-color: rgba(32, 32, 32, 0.95);
+    flex-direction: column;
+    text-align: center;
+    text-shadow: none;
+    color: white;
 }

@@ -36,21 +36,6 @@ header {
 p{
     margin: 2%;
 }
-.largerd {
-    font-size: 2em;
-    color: red;
-}
-.bglight{
-     background-color: rgba(32, 32, 32, 0.9);
-     color: white;
-}
-.bgdark{
-     background-color: rgba(250, 250, 250, 0.75);
-}
-
-.pad {
-    margin: 2%;
-}
 
 .logo {
     width: 60%;
@@ -65,15 +50,30 @@ nav {
     padding: 2%;
 }
 
+.feature {
+    font-size: 2em;
+    color: red;
+    background-color: rgba(250, 250, 250, 0.75);
+    margin: 2%;
+}
+
+.text {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: none;
+    font-weight:bolder;
+    background-color: rgba(32, 32, 32, 0.9);
+    color: white;
+    margin: 2%;
+}
+
 .container {
     display: flex;
     overflow: hidden;
     justify-content: center;
-}
-
-.textcenter {
-    text-align: center;
-    text-shadow: none;
 }
 
 ul{
@@ -87,16 +87,9 @@ li {
     font-size: 1em;
 }
 
-.italic {
-    font-style: italic;
-}
-
 img {
     width: 70%;
     border: 10px gray solid;
     margin: auto;
 } 
 
-.bold {
-    font-weight:bolder;
-}
