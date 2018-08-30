@@ -23,7 +23,7 @@ body {
     height: auto;
 }
 
- .frame{
+.frame{
      background-image: url("../../images/gingham.jpg");
      margin: 2%
  }
@@ -46,7 +46,7 @@ h3 {
     padding: 0px;
 }
 
-#logo {
+.logo {
     width: 60%;
     background-color: #dadfea;
 }
