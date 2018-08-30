@@ -34,7 +34,7 @@ header {
     background-image: linear-gradient(to top,rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
-.logo {
+#logo {
     width: 60%;
     background-color: #dadfea;
 }

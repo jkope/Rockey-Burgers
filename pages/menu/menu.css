@@ -42,7 +42,11 @@ h3 {
     padding: 2%;
 }
 
-.logo {
+.nopad{
+    padding: 0px;
+}
+
+#logo {
     width: 60%;
     background-color: #dadfea;
 }
