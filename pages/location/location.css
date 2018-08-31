@@ -64,17 +64,16 @@ h3 {
 nav {
     padding: 2%;
 }
-
+ li:hover {
+    background-color:white;
+}
 .container {
     display: flex;
     overflow: hidden;
     justify-content: center;
-    
 }
-
 .start {
-    justify-content: space-between;
-    width: 70%;
+    justify-content: space-around;
 }
 
 form {
@@ -84,7 +83,8 @@ form {
     overflow: hidden;
     flex-direction: column;
     justify-content: space-around;
-    width: 40%;
+    min-width: 200px;
+  
 }
 form > input {
     margin: 1%;
