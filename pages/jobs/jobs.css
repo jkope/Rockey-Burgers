@@ -2,36 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* background-color: black; */
+    /* border: 1px solid red; */
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: black; 
 }
 li:hover {
     background-color:white;
 }
 
-.pad {
-    padding: 2%;
-}
-form {
-    padding: 1%;
-    background-color: rgba(32, 32, 32, 0.9);
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: space-around;
-    min-width: 200px;
-  
-}
-.submit {
-    width: 20%;
-    min-width: 56px;
-}
-form > input {
-    margin: 1%;
-}
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
@@ -73,6 +55,7 @@ nav {
     overflow: hidden;
     justify-content: center;
 }
+
 .start {
     justify-content: space-around;
 }
@@ -106,8 +89,27 @@ img {
     font-weight:bolder;
 }
 
-.facebook {
-    background-image: url(../../images/Facebook.png)    
+.area {
+    padding: 1%;
+    background-color: rgba(32, 32, 32, 0.9);
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 200px;
+  
+}
+input {
+    padding: 2%;
+}
+[type = "text"]{
+    margin: 2%; 
 }
 
+select {
+    margin: 2%; 
+}
 
+[type = "email"]{
+    margin: 2%; 
+}
