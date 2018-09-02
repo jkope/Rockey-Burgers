@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border-radius: 10px;
+
 }
 
 a {
@@ -42,6 +44,7 @@ body {
     justify-items:center;
     width: 100%;
     height: auto;
+    
 }
 
  .frame{

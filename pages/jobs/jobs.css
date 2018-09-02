@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border-radius: 10px;
+
     /* background-color: black; */
     /* border: 1px solid red; */
 }
@@ -49,12 +51,16 @@ header {
 nav {
     padding: 2%;
 }
+pad {
+    padding: 2%;
+}
 
 .container {
     display: flex;
     overflow: hidden;
     justify-content: center;
 }
+
 
 .start {
     justify-content: space-around;
@@ -89,27 +95,61 @@ img {
     font-weight:bolder;
 }
 
+.bground{
+    background-color: rgba(32, 32, 32, 0.9);
+    margin: 2%;
+}
+
 .area {
     padding: 1%;
-    background-color: rgba(32, 32, 32, 0.9);
+    /* background-color: rgba(32, 32, 32, 0.9); */
     display: flex;
     overflow: hidden;
     flex-direction: column;
     justify-content: space-around;
     min-width: 200px;
+    color: white;
+    text-shadow: none;
   
 }
-input {
+.area2 {
+    padding: 1%;
+    /* background-color: rgba(32, 32, 32, 0.9); */
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    min-width: 200px;
+    color: white;
+    text-shadow: none;
+}
+textarea {
+    margin: 2%;
     padding: 2%;
 }
-[type = "text"]{
-    margin: 2%; 
+
+input {
+    padding: 2%;
+    margin: 2%;
 }
 
 select {
+    padding: 2%;
     margin: 2%; 
 }
 
-[type = "email"]{
-    margin: 2%; 
+input[type='checkbox'] {
+    width:30px;
+    height:30px;
+    border:2px solid #555;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin: 2%;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
 }

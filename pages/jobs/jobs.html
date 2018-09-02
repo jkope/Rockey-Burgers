@@ -31,16 +31,14 @@
                 <h1>Apply online</h1>
                 <h2>At Rockeys we are always looking for talented fun loving people to join our team.</h2>
             </div>
-            <form>
-                <div class="container">
-                    <div class="area">
-                        <div>
-                           <p>Name<input type="text" placeholder="First Name" name="firstName"><input type="text" placeholder="Last Name" name="lastName"></p>
-                        </div>
-                        <div>
-                            <p>Address<input type="text" placeholder="Address" name="Address"><input type="text" placeholder="Unit" name="Unit"></p>
-                        </div>
-                        <p>City<select>
+            <form class="container column bground">
+                <div class="container column">
+                    <div class="area top" >
+                        <h3>Who Are You</h3>
+                        <div class="container">
+                           <div class="container column">Name<input type="text" placeholder="First Name" name="firstName"><input type="text" placeholder="Last Name" name="lastName"></div>
+                            <div class="container column">Address<input type="text" placeholder="Address" name="Address"><input type="text" placeholder="Address 2" name="address2"></div>
+                            <div class="container column">City<select>
                             <option value="Default">--Select State--</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
@@ -92,35 +90,40 @@
                                 <option value="WV">West Virginia</option>
                                 <option value="WI">Wisconsin</option>
                                 <option value="WY">Wyoming</option>
-                            </select></p>
-                        <p>Zip Code<input type="text" placeholder="Zipcode" name="zipCode"></p>
-                        <p>Phone<input type="text" placeholder="Phone" name="phone"></p>
-                        <p>Email<input type="email" placeholder="Email" name="email"></p>
+                                </select></div>
+                            <div class="container column">Zip Code<input type="text" placeholder="Zipcode" name="zipCode"></div>
+                            <div class="container column">Phone<input type="text" placeholder="Phone" name="phone"></div>
+                            <div class="container column">Email<input type="email" placeholder="Email" name="email"></div>
+                        </div>
                     </div>
                     <div class="area">
-                        <h4>Work History</h4>
+                        <h3>Work History</h3>
                         <p>Tell us about your last two jobs.</p>
                         <div class="container">
                             <div class="container column">
                                 <input type="text" placeholder="Who did you work for?" name="Job1">
-                               <textarea rows="20" cols="50" placeholder=" What did you do? How long were you there?"></textarea>
+                               <textarea rows="20" cols="70" placeholder=" What did you do? How long were you there?"></textarea>
                             </div>
                             <div class="container column">
                                 <input type="text" placeholder="Who did you work for?" name="Job2">
-                                <textarea rows="20" cols="50" placeholder=" What did you do? How long were you there?"></textarea>
+                                <textarea rows="20" cols="70" placeholder=" What did you do? How long were you there?"></textarea>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
                     <div class="area">
-                        <h4>Availablity</h4>
-                        <input type="checkbox" name="daytime" value="daytime">Daytime
-                        <input type="checkbox" name="evenings" value="evenings">Evenings
-                        <input type="checkbox" name="anytime" value="anytime">Anytime
+                        <h3>Availablity</h3>
+                        <div class="container">
+                            <div><input type="checkbox" name="daytime" value="daytime">Daytime</div>
+                            <div><input type="checkbox" name="evenings" value="evenings">Evenings</div>
+                            <div><input type="checkbox" name="anytime" value="anytime">Anytime</div>
+                        </div>
                     </div>
                     <div class="area">
+                        <h3>Why Should We Hire You</h3>
                         <textarea rows="8" cols="50" placeholder="What makes you a great fit?"></textarea>
+                    </div>
+                    <div class="row">
+                        <button>Submit</button>
                     </div>
                 </div>
             </form>
