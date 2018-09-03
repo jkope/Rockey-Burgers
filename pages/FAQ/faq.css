@@ -70,3 +70,21 @@ img {
     border: 10px gray solid;
     margin: auto;
 } 
+.area {
+    padding: 1%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 200px;
+    color: white;
+    text-shadow: none;
+    background-color: rgba(32, 32, 32, 0.9);
+    margin: 2%;
+}
+summary {
+    font-size: 1.5em;
+}
+p {
+    padding: 2%;
+}
