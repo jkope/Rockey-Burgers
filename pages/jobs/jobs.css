@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
     border-radius: 10px;
-
-    /* background-color: black; */
-    /* border: 1px solid red; */
 }
 
 a {
@@ -102,7 +99,6 @@ img {
 
 .area {
     padding: 1%;
-    /* background-color: rgba(32, 32, 32, 0.9); */
     display: flex;
     overflow: hidden;
     flex-direction: column;
@@ -114,7 +110,6 @@ img {
 }
 .area2 {
     padding: 1%;
-    /* background-color: rgba(32, 32, 32, 0.9); */
     display: flex;
     overflow: hidden;
     justify-content: space-around;
