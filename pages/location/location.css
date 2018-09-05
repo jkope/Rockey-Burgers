@@ -51,9 +51,7 @@ header {
     padding: 5%;
     flex: 1;
 }
- .row {
-     flex-direction: row;
- }
+
 
 p {
     font-size: .7em;
@@ -93,7 +91,9 @@ form {
 }
 form > input {
     margin: 1%;
+    padding: 2%
 }
+
 .submit {
     width: 20%;
     min-width: 56px;

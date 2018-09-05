@@ -117,9 +117,10 @@ img {
     color: white;
     text-shadow: none;
 }
-textarea {
+textarea, input {
     margin: 2%;
     padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input {
