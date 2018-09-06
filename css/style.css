@@ -9,7 +9,7 @@ a {
     text-decoration: none;
     color: black; 
 }
-li:hover {
+.link:hover {
     background-color:white;
 }
 
@@ -47,6 +47,9 @@ header {
 
 nav {
     padding: 2%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .container {
@@ -59,15 +62,16 @@ nav {
     text-align: center;
 }
 
-ul{
-    list-style: none;
-}
-
-li {
+.link {
     flex: 1;
     font-weight: bold;
     font-variant: small-caps;
     font-size: 1em;
+    text-decoration: none;
+    color: black; 
+    padding: 10px;
+    margin: 5px;
+
 }
 
 .italic {
@@ -82,4 +86,7 @@ img {
 
 .bold {
     font-weight:bolder;
+}
+.pad {
+    padding: 2%;
 }
