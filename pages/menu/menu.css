@@ -17,7 +17,6 @@ h3 {
 .group {
     background-color: #dadfea;
     color: black;
-    font-size: 18px;
     margin: 1%;
     padding: 1%;
     text-align: left;
@@ -26,9 +25,11 @@ h3 {
     display: flex;
     overflow: hidden;
     justify-content: center;
-    background-color: rgba(32, 32, 32, 0.95);
+    background-image: url("../../images/burger-hero.jpg");
+    background-repeat: no-repeat;
+    margin: 2%;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     text-shadow: none;
     color: white;
 }

@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 18px;
     text-shadow: 2px 2px #dadfea;
     background-color: darkblue;
     display: flex;
@@ -31,12 +31,24 @@ a {
  }
 
 header {
-    text-align: center;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-image: linear-gradient(to top,rgba(255,0,0,0), rgba(255,0,0,1));
+    margin-bottom: 2%;
+}
+h1, .quote {
+    background-color: black;
+    padding: 5%;
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    color: white;
+    text-shadow: none;
 }
 
 .logo {
+    margin: 2%;
     width: 60%;
     background-color: #dadfea;
 }
@@ -46,9 +58,10 @@ header {
 }
 
 nav {
-    padding: 2%;
+    padding-right: 2%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    text-align: center;
     width: 100%;
 }
 
@@ -56,6 +69,7 @@ nav {
     display: flex;
     overflow: hidden;
     justify-content: center;
+    align-items: center;
 }
 
 .textcenter {
@@ -66,7 +80,7 @@ nav {
     flex: 1;
     font-weight: bold;
     font-variant: small-caps;
-    font-size: 1em;
+    font-size: 1.3em;
     text-decoration: none;
     color: black; 
     padding: 10px;
@@ -79,9 +93,10 @@ nav {
 }
 
 img {
-    width: 70%;
-    border: 10px gray solid;
-    margin: auto;
+    width: 100%;
+    /* border: 10px gray solid; */
+    /* margin: auto; */
+    border-radius: 0px;
 } 
 
 .bold {
@@ -89,4 +104,7 @@ img {
 }
 .pad {
     padding: 2%;
+}
+.test {
+    font-size: 2em;
 }
