@@ -7,23 +7,21 @@
     padding: 5%;
     flex: 1;
 }
-
-
+.row {
+    flex-direction: row;
+}
 p {
     font-size: .7em;
 }
-
+.pad {
+    margin: 2%;
+}
 h3 {
     padding: 2%;
 }
-.column {
-    flex-direction: column;
-}
-
 .start {
     justify-content: space-around;
 }
-
 form {
     padding: 1%;
     background-color: rgba(32, 32, 32, 0.9);
@@ -32,22 +30,18 @@ form {
     flex-direction: column;
     justify-content: space-around;
     min-width: 200px;
-  
 }
 form > input {
     margin: 1%;
     padding: 2%
 }
-
 .submit {
     width: 20%;
     min-width: 56px;
 }
-
 .wide {
     width: 100%;
 }
-
 .textcenter {
     text-align: center;
 }
