@@ -1,26 +1,31 @@
 
 p{
     margin: 2%;
+    font-weight:bolder;
 }
 
 .feature {
     font-size: 2em;
     color: red;
-    background-color: rgba(250, 250, 250, 0.75);
-    margin: 2%;
-}
-
-.text {
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    flex-direction: column;
+    background-color:black;
+    margin: 4%;
+    padding: 4%;
     text-align: center;
-    text-shadow: none;
-    font-weight:bolder;
-    background-color: rgba(32, 32, 32, 0.9);
-    color: white;
-    margin: 2%;
 }
-
+.bottom {
+    margin-bottom:4%; 
+}
+.adjust {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
