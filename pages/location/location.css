@@ -1,17 +1,53 @@
 .address {
     text-shadow: none;
     font-weight:bolder;
-    background-color: rgba(32, 32, 32, 0.9);
+    /* background-color: rgba(32, 32, 32, 0.9); */
+    background-color: black; 
     color: white;
-    margin: 7%;
-    padding: 5%;
+    min-width: 190px;
+    margin: 2%;
+    padding: 2%;
     flex: 1;
+    border-radius: 10px;
+}
+.adjust {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 .row {
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
 }
-p {
-    font-size: .7em;
+.col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+    width: 30%;
+}
+span {
+   font-size: 2em;
 }
 .pad {
     margin: 2%;
@@ -19,25 +55,38 @@ p {
 h3 {
     padding: 2%;
 }
-.start {
-    justify-content: space-around;
+h2 {
+    background-color: #006494;
+    padding-top: 5%;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
-form {
-    padding: 1%;
-    background-color: rgba(32, 32, 32, 0.9);
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: space-around;
-    min-width: 200px;
+.top {
+    padding-top: 0;
 }
-form > input {
-    margin: 1%;
-    padding: 2%
+.sub {
+    justify-content: space-between;
+    background-color: #dadfea ;
+    padding: 2%;
 }
-.submit {
-    width: 20%;
-    min-width: 56px;
+input[type=text] {
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+input:focus {
+    outline: none;
+}
+input[type=submit] {
+    padding:2% 6%; 
+    background:white; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    margin: 2%;
 }
 .wide {
     width: 100%;
