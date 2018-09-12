@@ -1,5 +1,6 @@
 .start {
     justify-content: space-around;
+    align-items: initial; 
 }
 
 .italic {
@@ -31,8 +32,8 @@ input[type=submit] {
     margin: 2%;
 }
 input[type='checkbox'] {
-    width:30px;
-    height:30px;
+    width:15px;
+    height:15px;
     border:2px solid #555;
 }
 .row {
